@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "513215934646",
+    "project_id": "pilot-project-ai",
+    "storage_bucket": "pilot-project-ai.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513215934646:android:ed5a370abd51e709c3b617",
+        "android_client_info": {
+          "package_name": "com.abhi.flutterai.ai_expense"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1y2-9v1J1GfxjSZ1D-0ClxgI3GB6easA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
