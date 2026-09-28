@@ -1,17 +1,20 @@
-# ai_expense
+# AI Expense Tracker
+ 
+Flutter expense assistant. You type a natural-language request; Gemini can add expenses or report category totals using tools, and data is stored locally in SQLite.
 
-A new Flutter project.
+## Features
 
-## Getting Started
+- Ask questions such as "add 250 for lunch" or "how much did I spend on food?"
+- Tool calling: `add_expense` and `get_category_total`
+- Local `expenses.db` via sqflite
+- Firebase AI (Gemini) + Firebase App Check (Android debug provider)
 
-This project is a starting point for a Flutter application.
+## Setup
 
-A few resources to get you started if this is your first Flutter project:
+1. Install [Flutter](https://docs.flutter.dev/get-started/install) (SDK `^3.12.2`).
+2. Firebase is already wired (`lib/firebase_options.dart`, `google-services.json`, `GoogleService-Info.plist`). Use the `pilot-project-ai` project, or run `flutterfire configure` for your own.
+3. From the repo root:
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
